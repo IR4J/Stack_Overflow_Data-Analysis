@@ -18,7 +18,7 @@ salary = remove.groupby ('Industry') ['ConvertedCompYearly'].mean().sort_values(
 # Gets average salaries per industry -------- 
 
 
-# Select top 10 industries
+# gives all industries
 industries = salary.head(15)
 
 # Plot horizontal bar graph
